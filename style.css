@@ -1,0 +1,17 @@
+body {
+    font-family: "Lato";
+}
+
+.logo-wm {
+    font-family: "Dancing Script", cursive;
+    font-size: 50;
+    text-shadow: 40;
+}
+
+.scrolled {
+    color: rgb(77, 77, 77) !important;
+    background-color: rgba(240, 240, 240, 0.95) !important;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3)
+    
+}

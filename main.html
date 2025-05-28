@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">    
+    <title>Kost Putra Topan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?kost,room');">
+
+  <!-- Gambar Fullscreen + Teks Tengah -->
+  <div class="relative w-full h-screen">
+    <img src="res/main-pic.png" alt="Foto Kost" class="w-full h-full object-cover" />
+  <div class="absolute inset-0 flex flex-col items-center justify-center text-center space-y-2">
+    <h1 class="text-white text-2xl">
+      SELAMAT DATANG DI
+    </h1>
+    <h1 class="text-white text-4xl font-bold">
+      KOST PUTRA MBAH TOPAN
+    </h1>
+  </div>
+</div>
+  <!-- Navbar -->
+  <header id="navbar" class="w-full text-white fixed top-10 left-0 z-50 transition-[top] duration-1000 ease-in-out ">
+    <div class="flex justify-between items-center px-6 py-4 transition duration-300">
+      <!-- Nama Kost -->
+      <div class="logo-wm text-2xl pl-40 font-semibold">
+        Kost Topan
+      </div>
+
+      <!-- Menu -->
+      <nav class="space-x-10 pr-40 text-s font-medium">
+        <a href="#beranda" class="hover:underline">BERANDA</a>
+        <a href="#about" class="hover:underline">KONTAK</a>
+        <a href="#alamat" class="hover:underline">ALAMAT</a>
+        <a href="#pesan" class="hover:underline">PESAN</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Konten Dummy untuk Scroll -->
+  <div class="pt-32 text-center bg-white">
+    <section id="beranda" class="py-20">
+      <h1 class="text-4xl font-bold">Kost Putra Mbah Topan</h1>
+      <p class="mt-4">Nyaman • Strategis • Terjangkau</p>
+      <p class="mt-10 text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non illum facilis vero eius ullam dignissimos asperiores cumque maiores! Temporibus rerum nam ipsam debitis obcaecati aut expedita consectetur esse dolores minus.</p>
+    </section>
+    <div class="h-[1500px]"></div>
+  </div>
+
+  <!-- Script: Tambahkan Warna Saat Scroll -->
+    <script src="script.js"></script>
+</body>
+</html>
