@@ -38,14 +38,14 @@ body {
   gap: 0.5rem;
 }
 
-/* Responsif saat layar >= 768px (tablet/desktop) */
-@media (min-width: 768px) {
+
+
     /* Optional: force menu tampil horizontal di desktop */
 @media (min-width: 768px) {
   .menu {
     display: flex !important;
   }
-}
+
   .navbar-container {
     flex-direction: row;
     justify-content: space-between;
