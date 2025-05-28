@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/4e0a8d768d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css" />
@@ -24,25 +25,33 @@
     </h1>
   </div>
 </div>
-  <!-- Navbar -->
-  <header id="navbar" class="w-full text-white fixed top-10 left-0 z-50 transition-[top] duration-1000 ease-in-out ">
-    <div class="flex justify-between items-center px-6 py-4 transition duration-300">
-      <!-- Nama Kost -->
-      <div class="logo-wm text-2xl pl-40 font-semibold">
-        Kost Topan
-      </div>
 
-      <!-- Menu -->
-      <nav class="space-x-10 pr-40 text-s font-medium">
-        <a href="#beranda" class="hover:underline">BERANDA</a>
-        <a href="#about" class="hover:underline">KONTAK</a>
-        <a href="#alamat" class="hover:underline">ALAMAT</a>
-        <a href="#pesan" class="hover:underline">PESAN</a>
-      </nav>
+<!-- Navbar -->
+<header id="navbar" class="w-full text-white fixed top-10 left-0 z-50 transition-[top] duration-1000 ease-in-out">
+  <div class="navbar-container flex items-center justify-between px-6 py-4 transition duration-300">
+    <!-- Logo -->
+    <div class="logo-wm text-2xl font-semibold">
+      Kost Topan
     </div>
-  </header>
 
-  <!-- Konten Dummy untuk Scroll -->
+    <!-- Hamburger Menu (Mobile only) -->
+    <button id="menu-toggle" class="md:hidden text-2xl">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+      </svg>
+    </button>
+
+    <!-- Menu (default hidden on mobile) -->
+    <nav id="menu" class="menu hidden md:flex flex-col md:flex-row text-sm font-medium gap-2 md:gap-10">
+      <a href="#beranda" class="hover:underline">BERANDA</a>
+      <a href="#about" class="hover:underline">KONTAK</a>
+      <a href="#alamat" class="hover:underline">ALAMAT</a>
+      <a href="#pesan" class="hover:underline">PESAN</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Konten Dummy untuk Scroll -->
   <div class="pt-32 text-center bg-white">
     <section id="beranda" class="py-20">
       <h1 class="text-4xl font-bold">Kost Putra Mbah Topan</h1>
