@@ -38,9 +38,43 @@ body {
   gap: 0.5rem;
 }
 
+.decoration-down {
+  display: flex; justify-content: center; align-items: center; position: absolute; z-index: 1; width: 300; margin-top: -60px; margin-left: 46%;
+}
 
+/* .decoration-down-img {
+  position: absolute;
+  bottom: 0%;
+  display: block;
+  margin: 0 auto;
+} */
 
+.down-arrow {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin-top: -40px;
+  z-index: 10;
+  margin-left: 49.4%;
+}
+
+/* .decoration-down {
+    position: absolute;
+    content: '';  
+    width: 157px;
+    height: 68px;
+    background: url(/res/add-down.png);
+    bottom: 100%;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+} */
     /* Optional: force menu tampil horizontal di desktop */
+
+
 @media (min-width: 768px) {
   .menu {
     display: flex !important;
