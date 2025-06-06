@@ -31,6 +31,23 @@ body {
   padding-left: 0;
 }
 
+.gambar1 {
+  width: 30em;
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
 /* Menu default: vertikal (HP) */
 .menu {
   display: flex;
